@@ -56,9 +56,12 @@ img{
 .button {
   font-family: inherit;
   border-radius: 4px;
-  display: inline-block;
+  display: block;
   text-align: center;
   border: 0;
+}
+img{
+  display: block;
 }
 .subtitle {
   color: var(--secondary-text-color-dark);
@@ -162,6 +165,7 @@ img{
   text-transform: uppercase;
 }
 .button-hero {
+  margin: 0 auto;
   min-width: 216px;
   padding: 10px 32px;
   color: var(--primary-text-color-light);
@@ -214,9 +218,6 @@ img{
 }
 .about-work-list{
   display: flex;
-}
-.about-work-img{
-  display: block;
 }
 .about-work-list .about-work-item + .about-work-item{
   margin-left: 30px;
